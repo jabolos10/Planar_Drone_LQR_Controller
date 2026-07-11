@@ -9,7 +9,7 @@
 
 A 2D quadrotor (planar drone) modeled from first principles and stabilized with a Linear Quadratic Regulator: nonlinear Newton-Euler equations of motion, linearization around the hover equilibrium, controllability analysis, and an LQR gain computed by solving the continuous-time algebraic Riccati equation. Solo project for the **Control Theory of Continuous and Discrete Event Processes** course at Poznań University of Technology.
 
-![Simulation results](docs/images/simulation_results.png)
+![Interactive Pygame simulation](docs/images/pygame_sim_screenshot.jpg)
 
 ## Demo
 
@@ -57,6 +57,8 @@ Three scenarios, simulated on the full nonlinear dynamics (not just the lineariz
 | **1 — Stabilisation** | Start at (2, 1) m, 0.3 rad tilt, drive to hover at origin | Converges to origin, pitch returns to 0° |
 | **2 — Tracking** | Step reference from hover to (3, 2) m | Settles at the new goal with bounded overshoot |
 | **3 — Disturbance rejection** | Velocity + angular-rate impulse kick at t=2s | Recovers to hover within a few seconds |
+
+![Simulation results](docs/images/simulation_results.png)
 
 ![Flight trajectories](docs/images/trajectories.png)
 
