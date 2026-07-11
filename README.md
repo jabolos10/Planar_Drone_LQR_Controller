@@ -2,6 +2,7 @@
 
 ### Planar Drone — LQR Controller
 
+[![Watch the demo on YouTube](https://img.shields.io/badge/YouTube-Watch%20the%20demo-red?logo=youtube&logoColor=white)](https://youtu.be/c-Osc7hJzVg)
 [![Python](https://img.shields.io/badge/Python-3-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![SciPy](https://img.shields.io/badge/SciPy-Riccati%20Equation-8CAAE6?logo=scipy&logoColor=white)](https://scipy.org/)
 [![Pygame](https://img.shields.io/badge/Pygame-Interactive%20Sim-000000?logo=python&logoColor=white)](https://www.pygame.org/)
@@ -9,6 +10,10 @@
 A 2D quadrotor (planar drone) modeled from first principles and stabilized with a Linear Quadratic Regulator: nonlinear Newton-Euler equations of motion, linearization around the hover equilibrium, controllability analysis, and an LQR gain computed by solving the continuous-time algebraic Riccati equation. Solo project for the **Control Theory of Continuous and Discrete Event Processes** course at Poznań University of Technology.
 
 ![Simulation results](docs/images/simulation_results.png)
+
+## Demo
+
+▶️ **[Watch on YouTube](https://youtu.be/c-Osc7hJzVg)** — the interactive Pygame simulation, LQR-controlled drone flying to clicked goal positions live.
 
 ## The system
 
